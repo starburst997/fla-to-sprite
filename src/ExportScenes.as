@@ -178,6 +178,12 @@
         if ( background != null )
         {
           var bmpd:BitmapData = screenshot( background, 0 ).bmpd;
+          var old:BitmapData = bmpd;
+
+          bmpd = new BitmapData(background.width, background.height, false, 0x000000);
+          bmpd.copyPixels(old, old.rect, new Point(0,0));
+          old.dispose();
+
           bytes = new ByteArray();
           bmpd.encode( bmpd.rect, new JPEGEncoderOptions(80), bytes );
           zip.addFile( "background.jpg", bytes );
