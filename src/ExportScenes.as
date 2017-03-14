@@ -5,6 +5,7 @@
   import flash.display.Sprite;
   import flash.display.MovieClip;
   import flash.display.PNGEncoderOptions;
+  import flash.display.JPGEncoderOptions;
   import flash.display.StageQuality;
   import flash.geom.Rectangle;
   import flash.geom.Point;
@@ -178,7 +179,7 @@
         {
           var bmpd:BitmapData = screenshot( background ).bmpd;
           bytes = new ByteArray();
-          bmpd.encode( bmpd.rect, new PNGEncoderOptions(), bytes );
+          bmpd.encode( bmpd.rect, new JPGEncoderOptions(80), bytes );
           zip.addFile( "background.png", bytes );
 
           definition.background = {
@@ -400,6 +401,14 @@
         return null;
       }
 
+      // Add padding
+      const PADDING:int = 1;
+      bounds.x -= PADDING;
+      bounds.y -= PADDING;
+      bounds.width += PADDING * 2;
+      bounds.height += PADDING * 2;
+
+      // Round to pixel
       bounds.x = int(bounds.x);
       bounds.y = int(bounds.y);
       bounds.width = Math.ceil(bounds.width);
