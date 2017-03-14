@@ -177,7 +177,7 @@
         var background:MovieClip = scene.getChildByName("background") as MovieClip;
         if ( background != null )
         {
-          var bmpd:BitmapData = screenshot( background ).bmpd;
+          var bmpd:BitmapData = screenshot( background, 0 ).bmpd;
           bytes = new ByteArray();
           bmpd.encode( bmpd.rect, new JPEGEncoderOptions(80), bytes );
           zip.addFile( "background.jpg", bytes );
@@ -392,7 +392,7 @@
     }
 
     // Take a screenshot
-    private function screenshot( mc:MovieClip ):Object
+    private function screenshot( mc:MovieClip, padding:int = 1 ):Object
     {
       var bounds:Rectangle = mc.getBounds( mc );
 
@@ -402,11 +402,10 @@
       }
 
       // Add padding
-      const PADDING:int = 1;
-      bounds.x -= PADDING;
-      bounds.y -= PADDING;
-      bounds.width += PADDING * 2;
-      bounds.height += PADDING * 2;
+      bounds.x -= padding;
+      bounds.y -= padding;
+      bounds.width += padding * 2;
+      bounds.height += padding * 2;
 
       // Round to pixel
       bounds.x = int(bounds.x);
