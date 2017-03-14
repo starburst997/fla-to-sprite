@@ -439,6 +439,16 @@
       // Draw
       var bmpd:BitmapData = new BitmapData( bounds.width, bounds.height, true, 0x00000000 );
       bmpd.drawWithQuality( mc, matrix, null, null, null, true, StageQuality.HIGH_16X16 );
+
+      // Trim
+      var trim:Object = trimAlpha(bmpd);
+      bmpd.dispose();
+
+      bmpd = trim.bmpd;
+
+      bounds.x -= trim.rect.x;
+      bounds.y -= trim.rect.y;
+
       return {bmpd: bmpd, rect: bounds};
     }
   }
