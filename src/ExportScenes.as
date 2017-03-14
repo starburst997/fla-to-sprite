@@ -5,7 +5,7 @@
   import flash.display.Sprite;
   import flash.display.MovieClip;
   import flash.display.PNGEncoderOptions;
-  import flash.display.JPGEncoderOptions;
+  import flash.display.JPEGEncoderOptions;
   import flash.display.StageQuality;
   import flash.geom.Rectangle;
   import flash.geom.Point;
@@ -179,7 +179,7 @@
         {
           var bmpd:BitmapData = screenshot( background ).bmpd;
           bytes = new ByteArray();
-          bmpd.encode( bmpd.rect, new JPGEncoderOptions(80), bytes );
+          bmpd.encode( bmpd.rect, new JPEGEncoderOptions(80), bytes );
           zip.addFile( "background.png", bytes );
 
           definition.background = {
