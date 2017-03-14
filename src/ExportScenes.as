@@ -180,7 +180,7 @@
           var bmpd:BitmapData = screenshot( background ).bmpd;
           bytes = new ByteArray();
           bmpd.encode( bmpd.rect, new JPEGEncoderOptions(80), bytes );
-          zip.addFile( "background.png", bytes );
+          zip.addFile( "background.jpg", bytes );
 
           definition.background = {
             width: bmpd.width,
