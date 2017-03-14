@@ -1,0 +1,52 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Sheets/Graphics/Additional Lines" itemID="543ecda2-000008f3" linkageExportForAS="true" linkageClassName="AdditionalLines" lastModified="1419032810" lastUniqueIdentifier="5">
+  <timeline>
+    <DOMTimeline name="Additional Lines">
+      <layers>
+        <DOMLayer name="Properties" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[var info = {
+	hasChilds: true
+}]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4FFF4F">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Sheets/Graphics/Lines/Line H Sheet" centerPoint3DX="200" centerPoint3DY="422.95">
+                  <matrix>
+                    <Matrix a="0.390609741210938" ty="422.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="129.8" y="2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Sheets/Graphics/Lines/Line H Sheet" centerPoint3DX="200" centerPoint3DY="477.95">
+                  <matrix>
+                    <Matrix a="0.390609741210938" ty="477.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="129.8" y="2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Sheets/Graphics/Lines/Line H Sheet" centerPoint3DX="200" centerPoint3DY="545.95">
+                  <matrix>
+                    <Matrix a="0.390609741210938" ty="545.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="129.8" y="2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

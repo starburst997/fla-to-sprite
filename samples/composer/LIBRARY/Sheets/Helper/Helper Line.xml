@@ -1,0 +1,42 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Sheets/Helper/Helper Line" itemID="543ec093-000007cd" linkageExportForAS="true" linkageClassName="HelperLine" lastModified="1413399188">
+  <timeline>
+    <DOMTimeline name="Helper Line">
+      <layers>
+        <DOMLayer name="Proeprties" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[var info = {
+	tiled: true
+}]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4FFF4F">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF" alpha="0.749019607843137"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!40 0|40 5120!40 5120|0 5120!0 5120|0 0!0 0|40 0"/>
+                    <Edge cubics="!40 0(;40,0 40,5120 40,5120q40 0 40 5120);"/>
+                    <Edge cubics="!0 5120(;0,5120 0,0 0,0q0 5120 0 0);"/>
+                    <Edge cubics="!40 5120(;40,5120 0,5120 0,5120q40 5120 0 5120);"/>
+                    <Edge cubics="!0 0(0,0;0,0 40,0 40,0q0 0 40 0);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

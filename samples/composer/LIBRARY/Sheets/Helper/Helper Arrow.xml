@@ -1,0 +1,30 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Sheets/Helper/Helper Arrow" itemID="543ea8a9-000007c7" linkageExportForAS="true" linkageClassName="HelperArrow" lastModified="1413682998">
+  <timeline>
+    <DOMTimeline name="Helper Arrow">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#FFFFFF" alpha="0.898039215686275"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!19 800/-20 800!-20 800/-340 0!-340 0|340 0!340 0/19 800"/>
+                    <Edge cubics="!-340 0(;-340,0 340,0 340,0q-340 0 340 0);"/>
+                    <Edge cubics="!-20 800(;-20,800 -340,0 -340,0q-20 800 -340 0);"/>
+                    <Edge cubics="!340 0(;340,0 19,800 19,800q340 0 19 800);"/>
+                    <Edge cubics="!19 800(;19,800 -20,800 -20,800q19 800 -20 800);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

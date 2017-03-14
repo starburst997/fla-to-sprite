@@ -1,0 +1,41 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Sheets/Graphics/Lines/Sheet V Line 1" itemID="543ec38e-00000813" linkageExportForAS="true" linkageClassName="SheetVLine1" lastModified="1413988940">
+  <timeline>
+    <DOMTimeline name="Sheet V Line 1">
+      <layers>
+        <DOMLayer name="Properties" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[var info = {
+	tiled: true,
+	noScale: true,
+	noTrim: true
+}]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Sheets/Graphics/Lines/Sheet V Line 1 Graphics" centerPoint3DX="-1" centerPoint3DY="127.5">
+                  <matrix>
+                    <Matrix tx="-2"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="1" y="127.5"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.75"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,29 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Sheets/Time/t4" itemID="51114f68-000001dd" linkageExportForAS="true" linkageClassName="t4" lastModified="1413145891">
+  <timeline>
+    <DOMTimeline name="t4">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!9 -511[-75 -370 -134 -277!-134 -277[-208 -158 -261 -89!-261 -89[-282 -60 -364 63!-364 63[-449 195 -535 325!-535 325|-134 325!-134 325|-134 -165!-134 -165|200 -448!200 -448|200 325!200 325|344 325!344 325|344 393!344 393|203 393!203 393
+[200 402 200 440!200 440[200 478 205 528!205 528[209 579 217 605!217 605[225 630 284 661!284 661[331 684 344 684!344 684|344 747!344 747|-282 747!-282 747|-282 684!-282 684[-264 684 -214 662!-214 662[-154 633 -148 608!-148 608[-142 583
+ -138 520!-138 520[-134 456 -134 422!-134 422[-134 396 -134 393!-134 393|-658 393!-658 393[-658 384 -659 365!-659 365[-661 344 -661 339!-661 339[-661 328 -658 325!-658 325[-465 189 -358 -86!-358 -86[-284 -274 -249 -536!-249 -536[-219
+ -769 -214 -773!-214 -773|162 -773!162 -773[85 -643 9 -511"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

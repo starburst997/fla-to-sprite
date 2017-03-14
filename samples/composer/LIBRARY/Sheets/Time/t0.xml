@@ -1,0 +1,28 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Sheets/Time/t0" itemID="5111505f-00000219" linkageExportForAS="true" linkageClassName="t0" lastModified="1360102322">
+  <timeline>
+    <DOMTimeline name="t0">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle1="1" edges="!662 -1321[606 -1436 516 -1436!516 -1436[423 -1436 369 -1322!369 -1322[325 -1228 306 -1054!306 -1054[292 -927 292 -751!292 -751[292 -578 308 -457!308 -457[328 -288 374 -196!374 -196[428 -83 516 -83!516 -83[643 -83 700 -315!700 -315[744
+ -488 744 -751!744 -751[744 -925 728 -1053!728 -1053[708 -1227 662 -1321!516 -1520[763 -1520 904 -1275!904 -1275[1027 -1060 1027 -759!1027 -759[1027 -458 905 -246!905 -246[765 0 516 0!516 0[267 0 125 -244!125 -244[0 -458 0 -759!0 -759
+[0 -1063 123 -1275!123 -1275[265 -1520 516 -1520"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

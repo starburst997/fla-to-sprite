@@ -1,0 +1,37 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Sheets/Graphics/Lines/Line H Sheet" itemID="543c9f10-00000610" linkageExportForAS="true" linkageClassName="LineHSheet" lastModified="1413424546" lastUniqueIdentifier="1">
+  <timeline>
+    <DOMTimeline name="Line H Sheet">
+      <layers>
+        <DOMLayer name="Properties" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[var info = {
+	tiled: true,
+	noScale: true
+}]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4FFF4F">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Sheets/Graphics/Lines/LineH" centerPoint3DX="40.95" centerPoint3DY="1.5">
+                  <matrix>
+                    <Matrix a="2.55999755859375" d="1.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="1.2"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

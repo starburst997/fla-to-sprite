@@ -1,0 +1,135 @@
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#666666" width="1366" height="768" frameRate="60" currentTimeline="1" xflVersion="2.2" creatorInfo="Adobe Flash Professional CS6" platform="Windows" versionInfo="Saved by Adobe Flash Windows 12.0 build 537" majorVersion="12" buildNumber="537" viewAngle3D="104.559288741239" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false">
+     <folders>
+          <DOMFolderItem name="App" itemID="543c94f6-00000315" isExpanded="true"/>
+          <DOMFolderItem name="Background Test" itemID="58c30fbd-000002ca" isExpanded="true"/>
+          <DOMFolderItem name="Sheets" itemID="58c30fbd-00000295" isExpanded="true"/>
+          <DOMFolderItem name="Sheets/Graphics" itemID="543b0e1f-0000088b" isExpanded="true"/>
+          <DOMFolderItem name="Sheets/Graphics/Lines" itemID="543c995a-000003a6" isExpanded="true"/>
+          <DOMFolderItem name="Sheets/Helper" itemID="543edab7-000009a5"/>
+          <DOMFolderItem name="Sheets/Key" itemID="543ed6fe-00000986" isExpanded="true"/>
+          <DOMFolderItem name="Sheets/Measures" itemID="543b0e2f-00000891" isExpanded="true"/>
+          <DOMFolderItem name="Sheets/Time" itemID="543c94a1-0000030a"/>
+     </folders>
+     <media>
+          <DOMBitmapItem name="Sheets/Graphics/Lines/vline.png" itemID="543ed155-00000918" sourceExternalFilepath="./LIBRARY/Sheets/Graphics/Lines/vline.png" sourceLastImported="1489110042" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="Sheets/Graphics/Lines/vline.png" bitmapDataHRef="M 1 1489178557.dat" frameRight="80" frameBottom="280"/>
+     </media>
+     <symbols>
+          <Include href="App/Background.xml" itemID="543c94ed-0000030d" lastModified="1413679209"/>
+          <Include href="App/Empty.xml" itemID="543c97a4-0000031e" lastModified="1413257124"/>
+          <Include href="Background Test/Symbol 1.xml" loadImmediate="false" itemID="5442e6e1-000002b1" lastModified="1413670725"/>
+          <Include href="Sheets/Graphics/Additional Lines.xml" itemID="543ecda2-000008f3" lastModified="1419032810"/>
+          <Include href="Sheets/Graphics/FClef.xml" itemID="511139fe-000001de" lastModified="1413841332"/>
+          <Include href="Sheets/Graphics/GClef.xml" itemID="51113a9a-000001e0" lastModified="1413841319"/>
+          <Include href="Sheets/Graphics/Lines/Line H Sheet.xml" itemID="543c9f10-00000610" lastModified="1413424546"/>
+          <Include href="Sheets/Graphics/Lines/Line V Sheet End.xml" itemID="543ef7f5-000009b8" lastModified="1413988983"/>
+          <Include href="Sheets/Graphics/Lines/LineH.xml" itemID="51115254-0000021d" lastModified="1360106850"/>
+          <Include href="Sheets/Graphics/Lines/LineV2.xml" itemID="51115287-00000227" lastModified="1360089745"/>
+          <Include href="Sheets/Graphics/Lines/LineVBig.xml" itemID="543c9984-000003ab" lastModified="1413988969"/>
+          <Include href="Sheets/Graphics/Lines/LineVBig Graph.xml" loadImmediate="false" itemID="543c997c-000003a9" lastModified="1413257596"/>
+          <Include href="Sheets/Graphics/Lines/LineVSmall.xml" itemID="543c99a8-000003b4" lastModified="1413988961"/>
+          <Include href="Sheets/Graphics/Lines/LineVSmall Graph.xml" loadImmediate="false" itemID="543c999f-000003b2" lastModified="1413257631"/>
+          <Include href="Sheets/Graphics/Lines/Sheet V Line 1.xml" itemID="543ec38e-00000813" lastModified="1413988940"/>
+          <Include href="Sheets/Graphics/Lines/Sheet V Line 1 Graphics.xml" loadImmediate="false" itemID="543ec3c5-00000819" lastModified="1413939037"/>
+          <Include href="Sheets/Graphics/Lines/Sheet V Line 2.xml" itemID="543ecb02-000008a6" lastModified="1413988950"/>
+          <Include href="Sheets/Graphics/Lines/Sheet V Line 3.xml" itemID="543ecafd-00000899" lastModified="1413988945"/>
+          <Include href="Sheets/Graphics/Lines/Sheet V Lines.xml" itemID="543ec23a-00000805" lastModified="1413424581"/>
+          <Include href="Sheets/Graphics/Partition.xml" itemID="543c98d7-000003a0" lastModified="1489504227"/>
+          <Include href="Sheets/Helper/Helper.xml" itemID="543ea833-000007c2" lastModified="1413689685"/>
+          <Include href="Sheets/Helper/Helper Arrow.xml" itemID="543ea8a9-000007c7" lastModified="1413682998"/>
+          <Include href="Sheets/Helper/Helper Line.xml" itemID="543ec093-000007cd" lastModified="1413399188"/>
+          <Include href="Sheets/Key/Accidental.xml" itemID="543ed6ed-00000982" lastModified="1413515507"/>
+          <Include href="Sheets/Key/Flat.xml" itemID="5178999c-000003ee" lastModified="1366861338"/>
+          <Include href="Sheets/Key/Key.xml" itemID="543ed58e-00000938" lastModified="1413515539"/>
+          <Include href="Sheets/Measures/Line Measure Big.xml" itemID="543c9b5c-0000048a" lastModified="1413988857"/>
+          <Include href="Sheets/Measures/Line Measure Medium.xml" itemID="543c9b77-00000492" lastModified="1413988931"/>
+          <Include href="Sheets/Measures/Line Measure Mini.xml" itemID="543c9ba3-000004a3" lastModified="1413988864"/>
+          <Include href="Sheets/Measures/Line Measure Small.xml" itemID="543c9b8c-0000049a" lastModified="1413988925"/>
+          <Include href="Sheets/Measures/Measure BG.xml" itemID="543c9e7d-00000606" lastModified="1413581738"/>
+          <Include href="Sheets/Measures/Measure Container.xml" itemID="5445eaa0-00000266" lastModified="1489170931"/>
+          <Include href="Sheets/Measures/Measures.xml" itemID="543b0ac9-0000084c" lastModified="1413871584"/>
+          <Include href="Sheets/SheetMC.xml" itemID="543c98a4-00000386" lastModified="1489445213"/>
+          <Include href="Sheets/Time/t0.xml" itemID="5111505f-00000219" lastModified="1360102322"/>
+          <Include href="Sheets/Time/t1.xml" itemID="51114ffa-000001e8" lastModified="1360101944"/>
+          <Include href="Sheets/Time/t2.xml" itemID="5111500c-000001ef" lastModified="1360102249"/>
+          <Include href="Sheets/Time/t3.xml" itemID="5111501a-000001f5" lastModified="1360089114"/>
+          <Include href="Sheets/Time/t4.xml" itemID="51114f68-000001dd" lastModified="1413145891"/>
+          <Include href="Sheets/Time/t5.xml" itemID="51115027-000001fb" lastModified="1360102292"/>
+          <Include href="Sheets/Time/t6.xml" itemID="51115032-00000201" lastModified="1360102301"/>
+          <Include href="Sheets/Time/t7.xml" itemID="5111503d-00000207" lastModified="1360089149"/>
+          <Include href="Sheets/Time/t8.xml" itemID="5111504b-0000020d" lastModified="1360102311"/>
+          <Include href="Sheets/Time/t9.xml" itemID="51115055-00000213" lastModified="1360102317"/>
+          <Include href="Sheets/Time/TimeSheet MC.xml" itemID="543c93e3-000002d1" lastModified="1413839144"/>
+          <Include href="Sheets/Time/TimeSheet Num.xml" itemID="543c94b5-0000030b" lastModified="1413829028"/>
+     </symbols>
+     <timelines>
+          <DOMTimeline name="Sheet">
+               <layers>
+                    <DOMLayer name="Properties" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <Actionscript>
+                                        <script><![CDATA[var info:Object = {
+	width: 900,
+	height: 580
+};]]></script>
+                                   </Actionscript>
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="MC" color="#4FFF4F" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="Sheets/SheetMC" centerPoint3DX="683" centerPoint3DY="349.85">
+                                             <matrix>
+                                                  <Matrix tx="683"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point y="349.85"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Background" color="#9933CC" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="App/Background" name="background" centerPoint3DX="683" centerPoint3DY="384">
+                                             <transformationPoint>
+                                                  <Point x="683" y="384"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+     </timelines>
+     <PrinterSettings/>
+     <publishHistory>
+          <PublishItem publishSize="28597" publishTime="1489513054"/>
+          <PublishItem publishSize="28597" publishTime="1489511714"/>
+          <PublishItem publishSize="28597" publishTime="1489511544"/>
+          <PublishItem publishSize="5541" publishTime="1489511507"/>
+          <PublishItem publishSize="28593" publishTime="1489510596"/>
+          <PublishItem publishSize="28593" publishTime="1489510571"/>
+          <PublishItem publishSize="28593" publishTime="1489510537"/>
+          <PublishItem publishSize="28593" publishTime="1489510489"/>
+          <PublishItem publishSize="27362" publishTime="1489504007"/>
+          <PublishItem publishSize="27101" publishTime="1489448547"/>
+          <PublishItem publishSize="27004" publishTime="1489448293"/>
+          <PublishItem publishSize="27004" publishTime="1489448278"/>
+          <PublishItem publishSize="27004" publishTime="1489448264"/>
+          <PublishItem publishSize="26972" publishTime="1489448018"/>
+          <PublishItem publishSize="5541" publishTime="1489447994"/>
+          <PublishItem publishSize="26941" publishTime="1489447948"/>
+          <PublishItem publishSize="37227" publishTime="1489447912" publishDebug="true"/>
+          <PublishItem publishSize="26939" publishTime="1489447897"/>
+          <PublishItem publishSize="26713" publishTime="1489446974"/>
+          <PublishItem publishSize="26653" publishTime="1489446873"/>
+     </publishHistory>
+</DOMDocument>

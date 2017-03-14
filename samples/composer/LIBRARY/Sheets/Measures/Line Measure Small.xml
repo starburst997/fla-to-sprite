@@ -1,0 +1,27 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Sheets/Measures/Line Measure Small" itemID="543c9b8c-0000049a" linkageExportForAS="true" linkageClassName="LineMeasureSmall" lastModified="1413988925" lastUniqueIdentifier="1">
+  <timeline>
+    <DOMTimeline name="Line Measure Small">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Sheets/Graphics/Lines/LineVSmall Graph" centerPoint3DX="1" centerPoint3DY="10">
+                  <matrix>
+                    <Matrix d="0.199981689453125" tx="-1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="2" y="50"/>
+                  </transformationPoint>
+                  <color>
+                    <Color alphaMultiplier="0.48828125"/>
+                  </color>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

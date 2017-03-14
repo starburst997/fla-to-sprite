@@ -1,0 +1,212 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Sheets/Graphics/Partition" itemID="543c98d7-000003a0" linkageExportForAS="true" linkageClassName="Partition" lastModified="1489504227" lastUniqueIdentifier="61">
+  <timeline>
+    <DOMTimeline name="Partition">
+      <layers>
+        <DOMLayer name="Properties" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[var info = {
+	hasChilds: true
+}]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Sheets/Graphics/GClef" name="gClef" centerPoint3DX="-575.65" centerPoint3DY="-79.3">
+                  <matrix>
+                    <Matrix a="0.75" d="0.75" tx="-590.5" ty="-119.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Sheets/Graphics/FClef" name="fClef" centerPoint3DX="-549.55" centerPoint3DY="168.25">
+                  <matrix>
+                    <Matrix a="0.75" d="0.75" tx="-590.5" ty="120.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="54.6" y="63.05"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Sheets/Time/TimeSheet MC" name="time1" centerPoint3DX="-92" centerPoint3DY="-240">
+                  <matrix>
+                    <Matrix tx="-92" ty="-240"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Sheets/Time/TimeSheet MC" name="time2" centerPoint3DX="-92" centerPoint3DY="-120">
+                  <matrix>
+                    <Matrix tx="-92" ty="-120"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Sheets/Time/TimeSheet MC" name="time3" centerPoint3DX="-92" centerPoint3DY="120">
+                  <matrix>
+                    <Matrix tx="-92" ty="120"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Sheets/Time/TimeSheet MC" name="time4" centerPoint3DX="-92" centerPoint3DY="240">
+                  <matrix>
+                    <Matrix tx="-92" ty="240"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Sheets/Graphics/Lines/LineVBig" name="startLine" selected="true" centerPoint3DX="-677.9" centerPoint3DY="406.55">
+                  <matrix>
+                    <Matrix d="2.34375" tx="-677.9" ty="-300.05"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="301.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Sheets/Graphics/Lines/LineVSmall" centerPoint3DX="-1" centerPoint3DY="406.6">
+                  <matrix>
+                    <Matrix d="2.34375" tx="-1" ty="-300"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="301.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Sheets/Graphics/Lines/LineVSmall" centerPoint3DX="787" centerPoint3DY="406.6">
+                  <matrix>
+                    <Matrix d="2.34375" tx="787" ty="-300"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="301.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Sheets/Graphics/Lines/Line H Sheet" centerPoint3DX="2722.1" centerPoint3DY="-300">
+                  <matrix>
+                    <Matrix a="6.64060974121094" tx="-677.9" ty="-300"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="512"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Sheets/Graphics/Lines/Line H Sheet" centerPoint3DX="2722.1" centerPoint3DY="-240">
+                  <matrix>
+                    <Matrix a="6.64060974121094" tx="-677.9" ty="-240"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="512"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Sheets/Graphics/Lines/Line H Sheet" centerPoint3DX="2722.1" centerPoint3DY="-180">
+                  <matrix>
+                    <Matrix a="6.64060974121094" tx="-677.9" ty="-180"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="512"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Sheets/Graphics/Lines/Line H Sheet" centerPoint3DX="2722.1" centerPoint3DY="-120">
+                  <matrix>
+                    <Matrix a="6.64060974121094" tx="-677.9" ty="-120"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="512"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Sheets/Graphics/Lines/Line H Sheet" centerPoint3DX="2722.1" centerPoint3DY="-60">
+                  <matrix>
+                    <Matrix a="6.64060974121094" tx="-677.9" ty="-60"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="512"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Sheets/Graphics/Lines/Line H Sheet" centerPoint3DX="2722.1" centerPoint3DY="60">
+                  <matrix>
+                    <Matrix a="6.64060974121094" tx="-677.9" ty="60"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="512"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Sheets/Graphics/Lines/Line H Sheet" centerPoint3DX="2722.1" centerPoint3DY="120">
+                  <matrix>
+                    <Matrix a="6.64060974121094" tx="-677.9" ty="120"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="512"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Sheets/Graphics/Lines/Line H Sheet" centerPoint3DX="2722.1" centerPoint3DY="180">
+                  <matrix>
+                    <Matrix a="6.64060974121094" tx="-677.9" ty="180"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="512"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Sheets/Graphics/Lines/Line H Sheet" centerPoint3DX="2722.1" centerPoint3DY="240">
+                  <matrix>
+                    <Matrix a="6.64060974121094" tx="-677.9" ty="240"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="512"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Sheets/Graphics/Lines/Line H Sheet" centerPoint3DX="2722.1" centerPoint3DY="300">
+                  <matrix>
+                    <Matrix a="6.64060974121094" tx="-677.9" ty="300"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="512"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Sheets/Graphics/Lines/LineVSmall" name="endLine1" centerPoint3DX="988" centerPoint3DY="406.6">
+                  <matrix>
+                    <Matrix d="2.34375" tx="988" ty="-300"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="301.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Sheets/Graphics/Lines/Line V Sheet End" name="endLine2" centerPoint3DX="1025">
+                  <matrix>
+                    <Matrix d="2.34375" tx="1019" ty="-300"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="6" y="128"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Sheets/Key/Key" name="gKey" centerPoint3DX="12.6" centerPoint3DY="-134.4">
+                  <matrix>
+                    <Matrix ty="-180"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="12.6" y="45.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Sheets/Key/Key" name="fKey" centerPoint3DX="12.6" centerPoint3DY="225.6">
+                  <matrix>
+                    <Matrix ty="180"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="12.6" y="45.6"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

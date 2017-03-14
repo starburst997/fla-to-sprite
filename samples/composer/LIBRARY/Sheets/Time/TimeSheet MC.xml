@@ -1,0 +1,44 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Sheets/Time/TimeSheet MC" itemID="543c93e3-000002d1" linkageExportForAS="true" linkageClassName="TimeSheetMC" lastModified="1413839144" lastUniqueIdentifier="2">
+  <timeline>
+    <DOMTimeline name="TimeSheet MC">
+      <layers>
+        <DOMLayer name="Properties" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[var info = {
+	hasChilds: true
+}]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Sheets/Time/TimeSheet Num" name="a" centerPoint3DX="-33">
+                  <matrix>
+                    <Matrix a="0.75" d="0.75" tx="-33"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Sheets/Time/TimeSheet Num" name="b" centerPoint3DX="33">
+                  <matrix>
+                    <Matrix a="0.75" d="0.75" tx="33"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

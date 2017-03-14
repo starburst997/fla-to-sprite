@@ -1,0 +1,198 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Sheets/Measures/Measure Container" itemID="5445eaa0-00000266" linkageExportForAS="true" linkageClassName="MeasureContainer" lastModified="1489170931" lastUniqueIdentifier="17">
+  <timeline>
+    <DOMTimeline name="Measure Container">
+      <layers>
+        <DOMLayer name="Properties" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[var info = {
+	hasChilds: true
+}]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Texts" color="#FF800A" current="true" isSelected="true" autoNamed="false" layerType="guide">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="num2" fontRenderingMode="standard" width="96" height="39.05" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="805" ty="3"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>2</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="justify" aliasText="false" size="32" bitmapSize="640" face="Montserrat-Bold" fillColor="#252525"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+                <DOMDynamicText name="num1" fontRenderingMode="standard" width="96" height="39.05" isSelectable="false">
+                  <matrix>
+                    <Matrix tx="15" ty="2"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>111 111</characters>
+                      <textAttrs>
+                        <DOMTextAttrs alignment="justify" aliasText="false" size="32" bitmapSize="640" face="Montserrat-Bold" fillColor="#252525"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4FFF4F">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Sheets/Measures/Line Measure Big" centerPoint3DY="21">
+                  <matrix>
+                    <Matrix ty="1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="20"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Sheets/Measures/Line Measure Medium" centerPoint3DX="200.2" centerPoint3DY="28.5">
+                  <matrix>
+                    <Matrix tx="200.2" ty="16"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Sheets/Measures/Line Measure Small" centerPoint3DX="101.1" centerPoint3DY="31">
+                  <matrix>
+                    <Matrix tx="101.1" ty="21"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="10"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Sheets/Measures/Line Measure Mini" centerPoint3DX="150.65" centerPoint3DY="36">
+                  <matrix>
+                    <Matrix tx="150.65" ty="31"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Sheets/Measures/Line Measure Mini" centerPoint3DX="51.55" centerPoint3DY="36">
+                  <matrix>
+                    <Matrix tx="51.55" ty="31"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Sheets/Measures/Line Measure Small" centerPoint3DX="299.3" centerPoint3DY="31">
+                  <matrix>
+                    <Matrix tx="299.3" ty="21"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="10"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Sheets/Measures/Line Measure Mini" centerPoint3DX="348.85" centerPoint3DY="36">
+                  <matrix>
+                    <Matrix tx="348.85" ty="31"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Sheets/Measures/Line Measure Mini" centerPoint3DX="249.75" centerPoint3DY="36">
+                  <matrix>
+                    <Matrix tx="249.75" ty="31"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Sheets/Measures/Line Measure Medium" centerPoint3DX="398.4" centerPoint3DY="28.5">
+                  <matrix>
+                    <Matrix tx="398.4" ty="16"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="12.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Sheets/Measures/Line Measure Small" centerPoint3DX="497.5" centerPoint3DY="31">
+                  <matrix>
+                    <Matrix tx="497.5" ty="21"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="10"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Sheets/Measures/Line Measure Mini" centerPoint3DX="547.05" centerPoint3DY="36">
+                  <matrix>
+                    <Matrix tx="547.05" ty="31"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Sheets/Measures/Line Measure Mini" centerPoint3DX="447.95" centerPoint3DY="36">
+                  <matrix>
+                    <Matrix tx="447.95" ty="31"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Sheets/Measures/Line Measure Medium" centerPoint3DX="596.6" centerPoint3DY="28.5">
+                  <matrix>
+                    <Matrix tx="596.6" ty="16"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="12.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Sheets/Measures/Line Measure Small" centerPoint3DX="695.7" centerPoint3DY="31">
+                  <matrix>
+                    <Matrix tx="695.7" ty="21"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="10"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Sheets/Measures/Line Measure Mini" centerPoint3DX="745.25" centerPoint3DY="36">
+                  <matrix>
+                    <Matrix tx="745.25" ty="31"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Sheets/Measures/Line Measure Mini" centerPoint3DX="646.15" centerPoint3DY="36">
+                  <matrix>
+                    <Matrix tx="646.15" ty="31"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Sheets/Measures/Line Measure Big" centerPoint3DX="791" centerPoint3DY="21">
+                  <matrix>
+                    <Matrix tx="791" ty="1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point y="20"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

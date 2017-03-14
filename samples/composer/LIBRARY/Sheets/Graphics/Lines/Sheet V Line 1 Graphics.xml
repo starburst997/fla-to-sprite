@@ -1,0 +1,35 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Sheets/Graphics/Lines/Sheet V Line 1 Graphics" itemID="543ec3c5-00000819" lastModified="1413939037">
+  <timeline>
+    <DOMTimeline name="Sheet V Line 1 Graphics">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <BitmapFill bitmapPath="Sheets/Graphics/Lines/vline.png" bitmapIsClipped="false">
+                        <matrix>
+                          <Matrix a="20" d="20.0039672851563" ty="126.05"/>
+                        </matrix>
+                      </BitmapFill>
+                    </FillStyle>
+                    <FillStyle index="2">
+                      <SolidColor color="#00FF00" alpha="0"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="2" edges="!80 100|80 0!80 0|0 0!0 0|0 100"/>
+                    <Edge fillStyle0="2" fillStyle1="1" edges="!0 100|80 100"/>
+                    <Edge fillStyle1="1" edges="!80 100|80 5040!80 5040|0 5040!0 5040|0 100"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

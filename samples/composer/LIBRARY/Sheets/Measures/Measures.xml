@@ -1,0 +1,52 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Sheets/Measures/Measures" itemID="543b0ac9-0000084c" linkageExportForAS="true" linkageClassName="Measures" lastModified="1413871584" lastUniqueIdentifier="35">
+  <timeline>
+    <DOMTimeline name="Measures" guides='&lt;guidelines&gt;&lt;guideline direction="v"&gt;398&lt;/guideline&gt;&lt;guideline direction="v"&gt;1188&lt;/guideline&gt;&lt;/guidelines&gt;'>
+      <layers>
+        <DOMLayer name="Properties" color="#FF4FFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[var info = {
+	hasChilds: true
+}]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 3" color="#FF800A" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Sheets/Measures/Measure Container" name="container" centerPoint3DX="851.5" centerPoint3DY="21">
+                  <matrix>
+                    <Matrix tx="400" ty="-1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="451.5" y="22"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="BG" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Sheets/Measures/Measure BG" name="bg" centerPoint3DX="2732" centerPoint3DY="20">
+                  <matrix>
+                    <Matrix a="5.3359375"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="512" y="20"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

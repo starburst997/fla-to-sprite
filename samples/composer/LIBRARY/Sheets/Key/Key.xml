@@ -1,0 +1,84 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Sheets/Key/Key" itemID="543ed58e-00000938" linkageExportForAS="true" linkageClassName="Key" lastModified="1413515539" lastUniqueIdentifier="13">
+  <timeline>
+    <DOMTimeline name="Key">
+      <layers>
+        <DOMLayer name="Properties" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[var info = {
+	hasChilds: true
+}]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Sheets/Key/Accidental" centerPoint3DX="-482.05" centerPoint3DY="-129.25">
+                  <matrix>
+                    <Matrix a="0.75" d="0.75" tx="-486.75" ty="-146.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="6.25" y="22.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Sheets/Key/Accidental" centerPoint3DX="-445.55" centerPoint3DY="-34.25">
+                  <matrix>
+                    <Matrix a="0.75" d="0.75" tx="-450.25" ty="-51.35"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="6.25" y="22.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Sheets/Key/Accidental" centerPoint3DX="-393.55" centerPoint3DY="-100.85">
+                  <matrix>
+                    <Matrix a="0.75" d="0.75" tx="-398.25" ty="-117.95"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="6.25" y="22.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Sheets/Key/Accidental" centerPoint3DX="-335.05" centerPoint3DY="-41.75">
+                  <matrix>
+                    <Matrix a="0.75" d="0.75" tx="-339.75" ty="-58.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="6.25" y="22.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Sheets/Key/Accidental" centerPoint3DX="-283.05" centerPoint3DY="45.25">
+                  <matrix>
+                    <Matrix a="0.75" d="0.75" tx="-287.75" ty="28.15"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="6.25" y="22.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Sheets/Key/Accidental" centerPoint3DX="-251.05" centerPoint3DY="-76.75">
+                  <matrix>
+                    <Matrix a="0.75" d="0.75" tx="-255.75" ty="-93.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="6.25" y="22.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="Sheets/Key/Accidental" centerPoint3DX="-202.55" centerPoint3DY="-16.75">
+                  <matrix>
+                    <Matrix a="0.75" d="0.75" tx="-207.25" ty="-33.85"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="6.25" y="22.8"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

@@ -1,0 +1,37 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Sheets/Graphics/Lines/Line V Sheet End" itemID="543ef7f5-000009b8" linkageExportForAS="true" linkageClassName="LineVSheetEnd" lastModified="1413988983" lastUniqueIdentifier="1">
+  <timeline>
+    <DOMTimeline name="Line V Sheet End">
+      <layers>
+        <DOMLayer name="Properties" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[var info = {
+	tiled: true,
+	noScale: true
+}]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Sheets/Graphics/Lines/LineV2" centerPoint3DX="-3" centerPoint3DY="128">
+                  <matrix>
+                    <Matrix a="1.5" d="2.55999755859375" tx="-6"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="2" y="50"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

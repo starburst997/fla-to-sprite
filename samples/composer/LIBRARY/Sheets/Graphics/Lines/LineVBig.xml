@@ -1,0 +1,37 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Sheets/Graphics/Lines/LineVBig" itemID="543c9984-000003ab" linkageExportForAS="true" linkageClassName="LineVBig" lastModified="1413988969" lastUniqueIdentifier="1">
+  <timeline>
+    <DOMTimeline name="LineVBig">
+      <layers>
+        <DOMLayer name="Properties" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <Actionscript>
+                <script><![CDATA[var info = {
+	tiled: true,
+	noScale: true
+}]]></script>
+              </Actionscript>
+              <elements/>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Layer 1" color="#4FFF4F">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Sheets/Graphics/Lines/LineVBig Graph" centerPoint3DX="-2.15" centerPoint3DY="33.45">
+                  <matrix>
+                    <Matrix a="0.877899169921875" d="2.56008911132813" tx="-3.5"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="1.7" y="0.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>
