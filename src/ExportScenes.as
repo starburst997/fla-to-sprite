@@ -414,8 +414,8 @@
       bounds.height += padding * 2;
 
       // Round to pixel
-      bounds.x = int(bounds.x);
-      bounds.y = int(bounds.y);
+      bounds.x = bounds.x < 0 ? Math.ceil(bounds.x) : int(bounds.x);
+      bounds.y = bounds.y < 0 ? Math.ceil(bounds.y) : int(bounds.y);
       bounds.width = Math.ceil(bounds.width);
       bounds.height = Math.ceil(bounds.height);
 
@@ -426,13 +426,13 @@
       {
         matrix.scale( -1, 1 );
         //matrix.rotate( rotation / 180 * Math.PI );
-        matrix.translate( Math.ceil(bounds.right), -Math.ceil(bounds.top) );
+        matrix.translate( bounds.right < 0 ? Math.ceil(bounds.right) : int(bounds.right), -(bounds.top < 0 ? Math.ceil(bounds.top) : int(bounds.top)) );
         matrix.scale( 1, 1 );
       }
       else
       {
         //matrix.rotate( rotation / 180 * Math.PI );
-        matrix.translate( -Math.ceil(bounds.left), -Math.ceil(bounds.top) );
+        matrix.translate( -(bounds.left < 0 ? Math.ceil(bounds.left) : int(bounds.left)), -(bounds.top < 0 ? Math.ceil(bounds.top) : int(bounds.top)) );
         matrix.scale( 1, 1 );
       }
 
