@@ -10,6 +10,8 @@
   import flash.geom.Rectangle;
   import flash.geom.Point;
   import flash.geom.Matrix;
+  import flash.text.TextField;
+  import flash.text.TextFormat;
 
   import flash.utils.ByteArray;
   import flash.utils.getQualifiedClassName;
