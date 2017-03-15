@@ -308,6 +308,8 @@
               {
                 definition: "TextField",
                 name: text.name,
+                bold: format.bold,
+                italic: format.italic,
                 size: format.size,
                 font: format.font,
                 align: format.align,
