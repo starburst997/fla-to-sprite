@@ -278,7 +278,6 @@
           for ( i = 0; i < mc.numChildren; i++ )
           {
             var child:MovieClip = mc.getChildAt(i) as MovieClip;
-
             if ( child != null )
             {
               var childName:String = getName(child);
@@ -295,6 +294,28 @@
                   rotation: child.rotation
                 });
               }
+            }
+
+            // TextField
+            var text:TextField = mc.getChildAt(i) as TextField;
+            if ( text != null )
+            {
+              var format:TextFormat = text.defaultTextFormat;
+
+              definition.children.push(
+              {
+                definition: "TextField",
+                name: child.name,
+                size: format.size,
+                font: format.font,
+                x: child.x,
+                y: child.y,
+                width: child.width,
+                height: child.height,
+                scaleX: child.scaleX,
+                scaleY: child.scaleY,
+                rotation: child.rotation
+              });
             }
           }
 
