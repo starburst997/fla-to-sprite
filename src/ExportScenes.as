@@ -307,18 +307,18 @@
               definition.children.push(
               {
                 definition: "TextField",
-                name: child.name,
+                name: text.name,
                 size: format.size,
                 font: format.font,
                 align: format.align,
                 text: text.text,
-                x: child.x,
-                y: child.y,
-                width: child.width,
-                height: child.height,
-                scaleX: child.scaleX,
-                scaleY: child.scaleY,
-                rotation: child.rotation
+                x: text.x,
+                y: text.y,
+                width: text.width,
+                height: text.height,
+                scaleX: text.scaleX,
+                scaleY: text.scaleY,
+                rotation: text.rotation
               });
             }
           }
