@@ -286,7 +286,8 @@
               {
                 definition.children.push(
                 {
-                  name: childName,
+                  definition: childName,
+                  name: child.name,
                   x: child.x,
                   y: child.y,
                   scaleX: child.scaleX,
