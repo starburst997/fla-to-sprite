@@ -308,6 +308,8 @@
                 name: child.name,
                 size: format.size,
                 font: format.font,
+                align: format.align,
+                text: text.text,
                 x: child.x,
                 y: child.y,
                 width: child.width,
