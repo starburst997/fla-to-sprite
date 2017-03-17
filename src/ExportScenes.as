@@ -474,8 +474,8 @@
 
       bmpd = trim.bmpd;
 
-      bounds.x -= trim.rect.x;
-      bounds.y -= trim.rect.y;
+      bounds.x += trim.rect.x;
+      bounds.y += trim.rect.y;
 
       return {bmpd: bmpd, rect: bounds};
     }
