@@ -200,8 +200,8 @@
         }
 
         // Add JSON
-        zip.addFileFromString( "definitions.json", JSON.stringify(definition), 8 );
-        zip.addFileFromString( "texture.json", JSON.stringify(textureJSON), 8 );
+        zip.addFileFromString( "definitions.json", JSON.stringify(definition) );//, 8 );
+        zip.addFileFromString( "texture.json", JSON.stringify(textureJSON) );//, 8 );
 
         // Finalize
         zip.finish();
