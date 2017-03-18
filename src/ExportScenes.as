@@ -144,7 +144,8 @@
         definition.width = texture.width;
         definition.height = texture.height;
 
-        for each ( var obj:Object in definition.definitions )
+        var obj:Object;
+        for each ( obj in definition.definitions )
         {
           if ( (obj.frames != null) && (obj.frames.length > 0) )
           {
@@ -163,8 +164,28 @@
               def.noScale = true;
             }
 
+            if ( obj.noTrim )
+            {
+              def.noTrim = true;
+            }
+
             textureJSON.definitions.push( def );
           }
+        }
+
+        // Bad, not optimized at all, this is because of a change in design...
+        var toDelete:Array = [];
+        for ( var key:Object in definition.definitions )
+        {
+          obj = definition.definitions[key];
+          if ( (obj.frames != null) && (obj.frames.length > 0) )
+          {
+            toDelete.push( key );
+          }
+        }
+        for ( var j:int = 0; j < toDelete.length; j++ )
+        {
+          delete definition.definitions[toDelete[j]];
         }
 
         // ZIP
@@ -198,6 +219,9 @@
           bmpd.dispose();
           bytes.clear();
         }
+
+        // Keep only children
+        for (  )
 
         // Add JSON
         zip.addFileFromString( "definitions.json", JSON.stringify(definition) );//, 8 );
