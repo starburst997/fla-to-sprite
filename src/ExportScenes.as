@@ -34,6 +34,7 @@
     // Map of all sprite for this scene
     private var definitions:Object = null;
     private var definition:Object = null;
+    private var textureJSON:Object = null;
 
     // Texture
     private var texture:BitmapData = null;
@@ -89,6 +90,9 @@
       definition = {};
       definition.definitions = [];
 
+      textureJSON = {};
+      textureJSON.definitions = [];
+
       // Add info values
       if ( scene.info != null )
       {
@@ -133,9 +137,6 @@
         texture.encode( texture.rect, new PNGEncoderOptions(), bytes );
 
         // Texture only position
-        var textureJSON:Object = {};
-        textureJSON.definitions = [];
-
         textureJSON.name = sceneName;
 
         textureJSON.width = texture.width;
@@ -171,21 +172,6 @@
 
             textureJSON.definitions.push( def );
           }
-        }
-
-        // Bad, not optimized at all, this is because of a change in design...
-        var toDelete:Array = [];
-        for ( var key:Object in definition.definitions )
-        {
-          obj = definition.definitions[key];
-          if ( (obj.frames != null) && (obj.frames.length > 0) )
-          {
-            toDelete.push( key );
-          }
-        }
-        for ( var j:int = 0; j < toDelete.length; j++ )
-        {
-          delete definition.definitions[toDelete[j]];
         }
 
         // ZIP
@@ -279,7 +265,6 @@
       {
         var definition:Object = {};
         definitions[name] = definition;
-        this.definition.definitions.push( definition );
 
         definition.name = name;
 
@@ -288,7 +273,10 @@
         {
           for ( var p:String in mc.info )
           {
-            definition[p] = mc.info[p];
+            if ( p != "hasChilds" )
+            {
+              definition[p] = mc.info[p];
+            }
           }
         }
 
@@ -296,6 +284,7 @@
         if ( (mc.info != null) && mc.info.hasChilds )
         {
           // Add children
+          this.definition.definitions.push( definition );
           definition.children = [];
 
           for ( i = 0; i < mc.numChildren; i++ )
@@ -352,6 +341,7 @@
         {
           // Create a screenshot and add it to the spritesheet
           definition.frames = [];
+          textureJSON.definitions.push( definition );
 
           if ( mc.totalFrames > 1 )
           {
