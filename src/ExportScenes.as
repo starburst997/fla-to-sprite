@@ -312,7 +312,9 @@
             var text:TextField = mc.getChildAt(i) as TextField;
             if ( text != null )
             {
-              var format:TextFormat = text.defaultTextFormat;
+              var format:TextFormat = text.getTextFormat();
+
+              trace("FORMAT", format.font);
 
               definition.children.push(
               {
