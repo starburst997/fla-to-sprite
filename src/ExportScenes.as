@@ -289,9 +289,12 @@
 
           for ( i = 0; i < mc.numChildren; i++ )
           {
+            var bounds:Rectangle;
             var child:MovieClip = mc.getChildAt(i) as MovieClip;
             if ( child != null )
             {
+              bounds = child.getBounds( child );
+
               var childName:String = getName(child);
               if ( childName != "" )
               {
@@ -303,6 +306,8 @@
                   y: child.y,
                   width: child.width,
                   height: child.height,
+                  originX: bounds.x,
+                  originY: bounds.y,
                   scaleX: child.scaleX,
                   scaleY: child.scaleY,
                   rotation: child.rotation
@@ -318,6 +323,8 @@
 
               trace("FORMAT", format.font);
 
+              bounds = text.getBounds( text );
+
               definition.children.push(
               {
                 definition: "TextField",
@@ -330,6 +337,8 @@
                 text: text.text,
                 x: text.x,
                 y: text.y,
+                originX: bounds.x,
+                originY: bounds.y,
                 width: text.width,
                 height: text.height,
                 scaleX: text.scaleX,
