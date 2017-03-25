@@ -301,6 +301,8 @@
                   name: child.name,
                   x: child.x,
                   y: child.y,
+                  width: child.width,
+                  height: child.height,
                   scaleX: child.scaleX,
                   scaleY: child.scaleY,
                   rotation: child.rotation
